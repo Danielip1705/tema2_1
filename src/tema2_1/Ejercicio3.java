@@ -8,7 +8,7 @@ public class Ejercicio3 {
 		// TODO Auto-generated method stub
 		final double num1;
 		final double num2;
-		int resultado;
+		int opcion;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Escriba el 1º numero");
@@ -19,16 +19,28 @@ public class Ejercicio3 {
 		
 		num2 = sc.nextDouble();
 		
+		System.out.println("Escriba que operación quiere realizar: Sumar [1] Restar [2] Multiplicar [3] Dividir [4]" );
 		
-		switch (num1)  {
+		opcion = sc.nextInt();
+		
+		switch (opcion)  {
 		case 1:
-			System.out.println("La suma de estos numeros son: " + num1+num2);
+			System.out.println("La suma de estos numeros son: " + num1+ num2);
+			break;
 		case 2:
-			System.out.println("La resta de estos numeros son: " + num1-num2);
+			System.out.println("La resta de estos numeros son: " + (num1-num2));
+			break;
+		case 3:
+			System.out.println("La multiplicacion de estos numeros son: " + num1*num2);
+			break;
+		case 4:
+			System.out.println("La division de estos numeros son: " + (num1/num2));
+			break;
+			default:
 		
 		}
 		
-		
+		sc.close();
 		
 		
 		
