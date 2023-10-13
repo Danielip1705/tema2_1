@@ -10,8 +10,8 @@ public class Ejercicio5 {
 		int contNeg=0;
 		int mediaNeg;
 		int cantidad=0;
-		int total =0;
-		double neg=0;
+		int sumaPos =0;
+		double sumaNeg=0;
 		int contcero =0;
 		
 		Scanner sc = new Scanner(System.in);
@@ -26,22 +26,22 @@ public class Ejercicio5 {
 			cantidad++; //2º
 			
 			if (num<0) {
-				contneg++;
-				num += neg;
+				contNeg++;
+				sumaNeg+= num;
 			} //3º
 				
 			else if (num==0) {
 				contcero++;
 			} //4º
 			else if (num>=0) {
-				total += num;
+				sumaPos += num;
 			}
 		
 		}
 		
-		System.out.println("La suma de los numeros positivos son: " +total);
-		medianeg = con
-		System.out.println("La media de los numeros negativos son: " +neg/contneg);
+		System.out.println("La suma de los numeros positivos son: " +sumaPos);
+		mediaNeg = suma
+		System.out.println("La media de los numeros negativos son: " +/contNeg);
 		System.out.println("En los 10 numeros que has insertado, hay en total " +contcero+ " ceros");
 		
 		
