@@ -40,8 +40,8 @@ public class Ejercicio5 {
 		}
 		
 		System.out.println("La suma de los numeros positivos son: " +sumaPos);
-		mediaNeg = suma
-		System.out.println("La media de los numeros negativos son: " +/contNeg);
+		
+		System.out.println("La media de los numeros negativos son: " +mediaNeg/contNeg);
 		System.out.println("En los 10 numeros que has insertado, hay en total " +contcero+ " ceros");
 		
 		
