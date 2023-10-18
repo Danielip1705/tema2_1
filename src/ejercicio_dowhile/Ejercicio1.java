@@ -24,8 +24,8 @@ public class Ejercicio1 {
 			
 			//mientras que numero es menor que 20, sique el bucle
 		} while (numero<=20);
-		
-	
+	//cerramos scanner
+	sc.close();
 	}
 
 }
