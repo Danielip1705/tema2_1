@@ -20,6 +20,13 @@ public class Ejercicio6 {
 		System.out.println("Jugador2, eliga piedra,papel o tijera");
 		player2 = sc.next();
 		
+		do {
+			if (player1==player2) {
+				System.out.println("EMPATE");
+			}else if (player1.equalsIgnoreCase(papel)&&player2.equalsIgnoreCase(piedra)){
+				
+		} while ();
+		
 		
 		
 		
