@@ -58,14 +58,7 @@ public class Ejerecicio1 {
 		//cerramos scanner
 		sc.close();
 		
-			
-		
-		
-		
-		
-		
-		
-		
+
 			
 	}
 

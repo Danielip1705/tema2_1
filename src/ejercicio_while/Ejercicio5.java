@@ -8,7 +8,7 @@ public class Ejercicio5 {
 		// TODO Auto-generated method stub
 		int num;
 		int contNeg=0;
-		int mediaNeg;
+		int mediaNeg=0;
 		int cantidad=0;
 		int sumaPos =0;
 		double sumaNeg=0;

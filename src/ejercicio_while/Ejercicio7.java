@@ -27,8 +27,6 @@ public class Ejercicio7 {
 				
 			} else if (numero<secreto) {
 				System.out.println("El numero es menor que el numero secreto");
-				
-			
 			}
 			System.out.println("Escriba el numero de nuevo");
 			numero = sc.nextInt();
