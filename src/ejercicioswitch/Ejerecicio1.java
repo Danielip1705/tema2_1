@@ -1,4 +1,4 @@
-package tema2_1;
+package ejercicioswitch;
 
 import java.util.Scanner;
 

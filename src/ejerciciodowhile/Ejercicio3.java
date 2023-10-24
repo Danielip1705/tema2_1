@@ -1,4 +1,4 @@
-package ejercicio_dowhile;
+package ejerciciodowhile;
 
 import java.util.Scanner;
 

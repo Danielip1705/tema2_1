@@ -1,4 +1,4 @@
-package ejercicio_while;
+package ejerciciowhile;
 
 import java.util.Random;
 import java.util.Scanner;
