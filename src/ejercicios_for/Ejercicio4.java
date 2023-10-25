@@ -26,7 +26,7 @@ public class Ejercicio4 {
 				System.out.println(multiplo);
 			}
 			
-			
+			sc.close();
 		}
 		
 		
