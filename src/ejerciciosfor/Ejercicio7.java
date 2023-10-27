@@ -1,4 +1,4 @@
-package ejercicios_for;
+package ejerciciosfor;
 
 import java.util.Scanner;
 
@@ -23,6 +23,7 @@ public class Ejercicio7 {
 			
 			//contador(1) se multiplica por i
 			contador *=i;
+			
 			
 		}
 		//imprimimos el resultado en pantalla

@@ -1,4 +1,4 @@
-package ejercicios_for;
+package ejerciciosfor;
 
 public class Ejercicio2 {
 
